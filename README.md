@@ -1,4 +1,4 @@
-# Dental_Insurance_Fee_Analysis_and_Negotiations
+# Dental-Insurance-Fee-Analysis-and-Negotiations
 
 This is a project I did while working in a dental office, where I compare our insurance fees with other offices and negotiate with insurance companies for higher rates.
 
