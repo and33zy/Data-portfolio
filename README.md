@@ -1,5 +1,4 @@
-# Data-Analysis-Portfolio
-## Dental-Insurance-Fee-Analysis-and-Negotiations
+# Dental-Insurance-Fee-Analysis-and-Negotiations
 
 This is a project I did while working in a dental office where I compare our current rates with offers from insurance companies to decide whether staying in network is still profitable, or dropping them so that a third party insurance company can pay under their rates. 
 
