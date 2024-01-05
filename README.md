@@ -1,15 +1,13 @@
 # Dental-Insurance-Fee-Analysis-and-Negotiations
 
-This is a project I did while working in a dental office where I compare our current rates with offers from insurance companies to decide whether staying in network is still profitable, or dropping them so that a third party insurance company can pay under their rates. 
+This is a project I did while working in a dental office and working with another company called Unlock the PPO. This company specializes in insurance fee negotiations. This project was mainly me communicating with other insurance companies and comparing my office's current rates with offers from insurance companies to decide whether staying in network is still profitable, or dropping their contract so that a third party insurance company can pay at a higher rate. 
 
 A direct contract is the easiest and fastest way a dentist can get into network with an insurance company and start working as a network provider. 
 It can be more profitable when dropping a direct contract, so that a higher paying insurance company can pickup after that contract and pay the office higher rates. 
 
 ### Purpose: 
-- Gather and organize data from current insurance rates to other insurance companies and their rates.
-- Generate reports to compare fee schedules and offer insights to make better informed decisions when negotiating insurance rates.
-- Negotiate with insurance carrier representatives to increase fee schedules.
-- Compare new offers with pre-existing fees, or with desired rates for negotiation
+- Gather and organize data containing rates for procedure codes to use for comparison. Sometimes other insurance companies can pay for other insurance companies at a higher rate with a third party network agreement.
+- Generate reports to compare fee schedules and offer insights to make better informed decisions when negotiating.
 
 ### Structure:
 #### 1. [Insurance-utilization-report](https://github.com/and33zy/Insurance-utilization-report)
@@ -18,7 +16,8 @@ It can be more profitable when dropping a direct contract, so that a higher payi
     * Can show discrepencies when quoting treatment plans to patients
   * Most importantly highlights the most common insurance carrier that patients use.
   * This report is significant because it helps me and our dentist figure out which insurance carrier we can decide on terminating our contract with and which ones we are okay to stay in network to negotiate or leave alone.
-  * Some insurance carriers are non-negotiable, if those are on the lower paying carriers, we can use this report to see if we have a lot of patients using that specific carrier. 
+  * Some insurance carriers are non-negotiable, if those are on the lower paying carriers, we can use this report to see if we have a lot of patients using that specific carrier.
+  * This was given by Unlock the PPO for a newer version of OpenDental. Code was modified to  adjust to older version of software to find correct column names.
 
 #### 2. [Procedures-by-Procedure-Code](https://github.com/and33zy/Procedures-by-Procedure-Code.git)
   * A report generated through OpenDental that tracks all known procedure codes used in our office.
